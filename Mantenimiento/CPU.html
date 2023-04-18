@@ -4,31 +4,43 @@
     <meta charset="UTF-8">
     <title>MANTENIMIENTO CPU</title>
     <link rel="stylesheet" href="../css/pagina.css">
+    <link rel="shortcut icon" href="../img/crode.png" />
 </head>
 <header>
+    <div class="izquierda"> <img src="../img/tecnoMexico.png"></div>
+
     <h1>CAPTURA DE MANTENIMIENTO PARA CPU'S </h1>
+
+    <div class="derecha"> <img src="../img/crode.png"></div>
 </header>
 <nav>
     <li><a href=" ">INICIO</a></li>
 </nav>
-<body><br>
-   <form action="#">
+<body>
+    <section>
+   <form action="#" id="formu">
     <table>
+        <caption id="titFormu"> <h2>DATOS A CAPTURAR </h2></caption>
         <tr> 
             <td>  
-                <label for="Marca">Ingresa la marca:</label>
-                <input type="text" id="Marca"><br><br>
+                <label for="Marca" class="entrada">Ingresa la marca:</label>
+                <input type="text" id="Marca" class="entrada">
             </td>
 
+            
+
             <td> 
-                <label for="Ram">Ingresa la ram:</label>
-                <input type="number" id="Ram"><br><br>
+                
+                <label for="Ram" class="entrada">Ingresa la ram:</label>
+                <input type="number" id="Ram" class="entrada">
             </td>
         </tr>
         
     </table>
+     <button type="submit" id="btnEnviar" class="boton">ENVIAR</button>
    </form>
    
-   <button type="submit" id="btnEnviar">ENVIAR</button>
+  
+</section>
 </body>
 </html>

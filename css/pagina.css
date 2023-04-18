@@ -29,6 +29,21 @@ header > h1{
                0 8px #000000,
                0 -5px #000000;
 }
+div{
+  width: 1px;
+  height: 1px;
+}
+.izquierda > img{
+  width: 180px;
+  height: 100px;
+  float: left;
+  }
+.derecha > img{
+width: 130px;
+height: 130px;
+float: right;
+}
+
 main{
   width: 100%;
   padding-bottom: 30px;
@@ -36,7 +51,7 @@ main{
   background-color: #808180;
 }
 section{
-  width: 800px;
+  width: 850px;
   margin: auto;
   border-radius: 15px;
   box-shadow: 6px 6px 4px rgb(0, 0, 0 ),
@@ -94,7 +109,7 @@ footer > p{
 
 /*----------------------- FORMULARIO -----------------------*/
 #formu{
-  width: 750px;
+  width: 790px;
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
   box-sizing: border-box;
@@ -116,22 +131,22 @@ footer > p{
 }
 #titFormu > h2,h1{
   text-align: center;
-  font-size: 2em;
+  font-size: 1.8em;
   font-family: helvetica;
   font-weight: bold;
-  color: #000000;
-  text-shadow: 2px 0px #FFFFFF,
-               -2px 0px #FFFFFF,
-               0px 2px #FFFFFF,
-               0px -2px #FFFFFF;
+  color: #ffffff;
+  text-shadow: 2px 0px #000000,
+               -2px 0px #000000,
+               0px 2px #000000,
+               0px -2px #000000;
 }
 #formu label,.entrada{
   font-weight: 700;
-  margin-left: 100px;
+  margin-left: 10px;
   background-color: #f9f9f9;
 }
 #formu .entrada{
-  width: 500px;
+  width: 220px;
   height: 30px;
   margin-bottom: 60px;
   border-radius: 3px;
@@ -207,11 +222,6 @@ table{
 tr{
   padding: 8px;
   color: #669;
-  border-top: 1px solid transparent;
-}
-th,td{
-  padding: 10px;
-  border-bottom: 2px solid #FFF;
   border-top: 1px solid transparent;
 }
 th{
